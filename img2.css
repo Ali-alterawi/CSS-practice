@@ -1,0 +1,37 @@
+article {
+    background-color: bisque;
+}
+main{
+    background-color: bisque;
+    overflow: hidden;
+}
+main p {
+    
+    width: calc((100% - 30px) /3);
+    float: left;
+    margin-right: 10px;
+    background-color:gray ;
+
+}
+p {
+    display: flex; 
+    justify-content: space-between;
+    
+}
+#aaa { 
+    overflow: auto;
+    width: 100%;
+    height: 80px;
+    font-weight: bold;
+    border-top: 3px solid ;
+    border-bottom: 3px solid;
+}
+.aa{
+    overflow: hidden;
+}
+.aa p {
+    width: calc((100% - 30px) /3);
+    float: left;
+    margin-right: 10px;
+    background-color:gray ;
+}

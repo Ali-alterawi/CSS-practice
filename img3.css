@@ -1,0 +1,24 @@
+.blue-text {
+ color: blue;
+
+}
+.yellow {
+    color: rgb(158, 110, 38);
+}
+main span {
+text-decoration: underline;
+}
+.red {
+    color: red;
+}
+section ul ul ul li {
+    color: blue;
+    list-style-type: none;
+}
+#yellow-1{
+    background-color: yellow;
+    color: black;
+}
+ul ul li{
+    color: blue;
+}
