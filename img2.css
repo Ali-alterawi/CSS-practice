@@ -1,37 +1,45 @@
 article {
     background-color: bisque;
 }
-main{
+
+main {
     background-color: bisque;
     overflow: hidden;
 }
+
 main p {
-    
-    width: calc((100% - 30px) /3);
+
+    width: calc((100% - 100px) /3);
     float: left;
     margin-right: 10px;
-    background-color:gray ;
+    background-color: gray;
+    height: 100px;
+    overflow: hidden;
 
 }
+
 p {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
-    
+
 }
-#aaa { 
+
+#aaa {
     overflow: auto;
     width: 100%;
     height: 80px;
     font-weight: bold;
-    border-top: 3px solid ;
+    border-top: 3px solid;
     border-bottom: 3px solid;
 }
-.aa{
+
+.aa {
     overflow: hidden;
 }
+
 .aa p {
     width: calc((100% - 30px) /3);
     float: left;
     margin-right: 10px;
-    background-color:gray ;
+    background-color: gray;
 }
